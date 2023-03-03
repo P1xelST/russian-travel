@@ -12,3 +12,11 @@
     z-index: 1;
     color: #FFFFFF;
 }
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        padding: 0 32px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+}

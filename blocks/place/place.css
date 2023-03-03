@@ -20,3 +20,13 @@
         padding-right: 24px;
     }
 }
+@media screen and (max-width: 767px) {
+    .place {
+        padding-top: 62px;
+        gap: 32px 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+

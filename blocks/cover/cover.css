@@ -11,12 +11,17 @@
         min-height: 640px;
     }
 }
-
 @media screen and (max-width: 1023px) {
     .cover  {
         margin-top: 80px;
         min-height: 480px;
-        /* background-size: 100%;
-        min-height: 200px; */
+       
+    }
+}
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-top: 55px;
+        background-size: 100%;
+        min-height: 200px;
     }
 }

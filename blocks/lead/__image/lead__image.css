@@ -12,3 +12,8 @@
         padding-top: 56px;
     }
 }
+@media screen and (max-width: 767px) {
+    .lead__image {
+        padding-top: 40px;
+    }
+}
