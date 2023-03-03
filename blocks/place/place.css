@@ -1,19 +1,22 @@
 .place {
-    margin-bottom: 80px;
+    padding-top: 80px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     gap: 48px 40px; 
 }
 .place:last-child {
-    margin-bottom: 0;
+    margin-bottom: 80;
 }
 @media screen and (max-width: 1179px) {
     .place {
         column-gap: 14px;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place {
-        gap: 48px 32px;
+        padding-top: 70px;
+        gap: 48px 28px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }

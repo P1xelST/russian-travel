@@ -12,9 +12,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover  {
-        background-size: 100%;
-        min-height: 200px;
+        margin-top: 80px;
+        min-height: 480px;
+        /* background-size: 100%;
+        min-height: 200px; */
     }
 }
