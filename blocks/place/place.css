@@ -4,9 +4,6 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     gap: 48px 40px; 
 }
-.place:last-child {
-    margin-bottom: 80;
-}
 @media screen and (max-width: 1179px) {
     .place {
         column-gap: 14px;
