@@ -8,9 +8,14 @@
     color: #AAAAAA;
     text-transform: uppercase;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     .place__url-heading {
         padding-left: 0;
+        margin: 0 0 12px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .place__url-heading {
         margin: 0 0 14px 0;
     }
 }
