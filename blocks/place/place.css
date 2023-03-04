@@ -1,5 +1,6 @@
 .place {
     padding-top: 80px;
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     gap: 48px 40px; 
@@ -10,8 +11,8 @@
 @media screen and (max-width: 1179px) {
     .place {
         gap: 48px 32px;
-        padding-left: 28px;
-        padding-right: 28px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -24,7 +25,7 @@
 }
 @media screen and (max-width: 767px) {
     .place {
-        padding-top: 68px;
+        padding-top: 59px;
         gap: 32px 0px;
         padding-left: 0;
         padding-right: 0;
