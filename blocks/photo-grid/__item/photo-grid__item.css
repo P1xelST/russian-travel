@@ -3,8 +3,15 @@
     max-width: 284px;
     max-height: 214px;
 }
+@media screen and (max-width: 1179px) {
+    .photo-grid__item {
+        max-width: 300px;
+        max-height: 230px;
+    }
+}
 @media screen and (max-width: 1023px) {
     .photo-grid__item {
-        max-height: 264px;
+        max-width: 355px;
+        max-height: 265px;
     }
 }

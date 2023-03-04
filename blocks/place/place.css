@@ -4,9 +4,14 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     gap: 48px 40px; 
 }
+.place:first-child {
+    padding-top: 0px;
+}
 @media screen and (max-width: 1179px) {
     .place {
-        column-gap: 14px;
+        gap: 48px 28px;
+        padding-left: 28px;
+        padding-right: 28px;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -15,15 +20,13 @@
         gap: 48px 28px;
         padding-left: 24px;
         padding-right: 24px;
-    }
+     }
 }
 @media screen and (max-width: 767px) {
     .place {
-        padding-top: 62px;
+        padding-top: 68px;
         gap: 32px 0px;
         padding-left: 0;
         padding-right: 0;
     }
 }
-
-

@@ -1,5 +1,5 @@
 .cover__overlay {
-    padding: 195px 0px;
+    padding: 245px 0px;
     width: 100%;
     height: 100%;
     background-color: rgba(42, 44, 47, .3);
@@ -13,3 +13,21 @@
 .cover:hover .cover__overlay   {
     background-color: rgba(0, 0, 0, .8);
 } 
+
+@media screen and (max-width: 1179px) {
+    .cover__overlay {
+        padding: 194px 0px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        padding: 127px 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        padding: 33px 0px;
+    }
+}
+
